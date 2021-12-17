@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+         #cont{
+           width:360px;
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+             height:540px;
+             margin:auto;
+       }
+       #cont>div:nth-child(1){
+           height:80px;
+             background-color: black;
+             color:white;
+             padding:20px;
+             font-size: 15px;
+               }
+               #cont>div:nth-child(2){
+                    padding:25px
+               }
+              input{
+                   width:290px;
+                   height:30px;
+                   margin-top:15px;
+
+               }
+             button{
+                margin-top: 30px;
+                width:297px;
+                height:40px;
+                border: 2px solid black;
+              }
+              button:hover{
+                background-color:rgb(43, 40, 40);
+                 color:white;
+              }
+
+    </style>
+</head>
+<body>
+   
+    <div id="cont">
+        <div><h1>Register</h1></div>
+        <div>
+            <label >First Name</label>
+            <input type="text" id="Fname">
+            <label >Last Name</label>
+            <input type="text" id="Lname">
+            <label >Email addres *</label>
+            <input type="text" id="email">
+            <label >password *</label>
+           
+            <input type="password" id="pass"><br>
+           
+            <button>REGISTER</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="register.js"></script>

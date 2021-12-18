@@ -1,4 +1,4 @@
-document.querySelector("#btn").addEventListener("click",register)
+document.querySelector("button").addEventListener("click",register)
  var data=JSON.parse(localStorage.getItem("regddata"))||[]
 function register(event){
     event.preventDefault()

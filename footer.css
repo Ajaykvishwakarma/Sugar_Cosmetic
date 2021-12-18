@@ -1,9 +1,18 @@
-.container{
+  /* Footer */
+  .container{
     background-color: black;
     color: white;
     width:100%;
+    margin-top:20px;
     min-height:50px;
     }
+  .container1{
+      background-color: black;
+      color: white;
+      width:100%;
+    
+      min-height:50px;
+      }
     #logo{
     width:70%;
     margin:auto;

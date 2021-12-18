@@ -48,17 +48,14 @@
   }
 
   
-#elementsContainer{
+.elementsContainer{
     border:1px solid #dcdcdc;
     width:100%;
-    margin-top: 10px;
-    height:20px;
-    margin:2px;
+    margin-top: 20px;
   
 }
 .searchicon{
     color:#dcdcdc;
-    margin:2px;
  
 }
 #header3{
@@ -94,10 +91,6 @@
      color:rgb(247, 64, 192);
      text-decoration: none;
         
-    }
-    #elementsContainer > tr> #tdid{
-        height:20px;
-        padding:0px;
     }
 
 /* Menu bar */
@@ -180,20 +173,88 @@ nav ul ul li a:hover{
     z-index: 1;
     position: relative;
    }
-   .container{
+
+
+  /* slider */
+  #framew {
+    margin: auto;
+    width:100%;
+    max-width: 100%;
+    margin-top:0px;
+    
+}
+  .container1{
+    background-color: #212121;
+    color:white;
+    height:100px;
+    padding-top: 5px;
+    line-height:20px;
+    margin-top: -10px;
+  }
+  .price-table{
+      width:430px;
+      height:150px;
+     background-color: white;
+     
+  }
+  .cart-add{
+     
+      width:490px;
+      height:370px;
+      padding-top:30px;
+      background-color: rgb(238, 238, 238);
+  }
+  .con{
+      background-color: #ff4b4b;
+      width:430px;
+     border-radius: 5px;
+     color:white;
+     font-size:19px;
+     height: 35px;
+     line-height:30px;  
+  }
+  #btn{
+      margin:20px;
+      width:430px;
+      height:50px;
+      background-color:rgb(22, 21, 21);
+      color:white;
+      border:0px;
+      font-weight:bold;
+  }
+  #btn:hover{
+    cursor: pointer;
+  }
+ hr{
+      width:400px;   
+  }
+#clear-cart{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#clear-cart>button{
+    width:180px;
+    height:35px;
+    border: 0px;
+    padding:10px;
+   margin-bottom: 100px;
+}
+#clear-cart>button:hover{
+    background-color:rgb(22, 21, 21);
+    color:white ;
+}
+#product-details>th{
+    border: 1px solid;
+    padding:10px 100px
+}
+.container{
     background-color: black;
     color: white;
     width:100%;
-    margin-top:20px;
     min-height:50px;
+    margin-top:0px
     }
-  .container1{
-      background-color: black;
-      color: white;
-      width:100%;
-    
-      min-height:50px;
-      }
     #logo{
     width:70%;
     margin:auto;
@@ -239,7 +300,7 @@ nav ul ul li a:hover{
     grid-template-columns: repeat(2,1fr);
     grid-gap:10px
     }
-    .icon{
+    i{
     font-size:30px;
     padding:10px;
     color:gray;
@@ -257,4 +318,3 @@ nav ul ul li a:hover{
     cursor:pointer;
     border:none
     }
-

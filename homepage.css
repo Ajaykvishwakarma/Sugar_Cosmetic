@@ -682,3 +682,83 @@ nav ul ul li a:hover{
     grid-gap: 5px;
     margin-top: 50px;
   }
+
+
+  /* Footer */
+  .container{
+    background-color: black;
+    color: white;
+    width:100%;
+    margin-top:20px;
+    min-height:50px;
+    }
+  .container1{
+      background-color: black;
+      color: white;
+      width:100%;
+    
+      min-height:50px;
+      }
+    #logo{
+    width:70%;
+    margin:auto;
+    justify-content: end;
+    text-align: center;
+    }
+    #content{
+    width:80%;
+    margin:auto;
+    height:450px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border:1px solid red; */
+    text-align:centre;
+    }
+    #content>div{
+    font-family:Quicksand;
+    width:90%;
+    height:100%;
+    /* border:1px solid yellow; */
+    margin:10px;
+    color:gray;
+    font-size:16px;
+    line-height:30px;
+    }
+    #content>div>h3{
+    color:white
+    }
+    #content>div>div>a{
+    color:gray;
+    text-decoration: none;
+    }
+    #content>div>div>a:hover{
+    text-decoration: underline;
+    color:white
+    }
+    /* #content>a{
+    color:red;
+    } */
+    .iOG{
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px
+    }
+    i{
+    font-size:30px;
+    padding:10px;
+    color:gray;
+    cursor:pointer;
+    }
+    #Email>div>input{
+    border:none;
+    background: transparent;
+    color:white
+    }
+    #Email>div>button{
+    padding:10px 30px;
+    border-radius: 5px;
+    background-color:#fc2779;
+    cursor:pointer;
+    border:none
+    }

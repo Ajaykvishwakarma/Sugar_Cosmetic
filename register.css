@@ -42,23 +42,21 @@
     width:80%;
     height:30px;
     font-size: 17px;
-    padding:7px;
+    padding:2px;
     margin-left: 10px;
     border:none;
+    margin-bottom:10px;
   }
 
   
-#elementsContainer{
+.elementsContainer{
     border:1px solid #dcdcdc;
     width:100%;
-    margin-top: 10px;
-    height:20px;
-    margin:2px;
+    margin-top: 20px;
   
 }
 .searchicon{
     color:#dcdcdc;
-    margin:2px;
  
 }
 #header3{
@@ -94,10 +92,6 @@
      color:rgb(247, 64, 192);
      text-decoration: none;
         
-    }
-    #elementsContainer > tr> #tdid{
-        height:20px;
-        padding:0px;
     }
 
 /* Menu bar */
@@ -180,81 +174,38 @@ nav ul ul li a:hover{
     z-index: 1;
     position: relative;
    }
-   .container{
-    background-color: black;
-    color: white;
-    width:100%;
-    margin-top:20px;
-    min-height:50px;
-    }
-  .container1{
-      background-color: black;
-      color: white;
-      width:100%;
-    
-      min-height:50px;
-      }
-    #logo{
-    width:70%;
-    margin:auto;
-    justify-content: end;
-    text-align: center;
-    }
-    #content{
-    width:80%;
-    margin:auto;
-    height:450px;
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    /* border:1px solid red; */
-    text-align:centre;
-    }
-    #content>div{
-    font-family:Quicksand;
-    width:90%;
-    height:100%;
-    /* border:1px solid yellow; */
-    margin:10px;
-    color:gray;
-    font-size:16px;
-    line-height:30px;
-    }
-    #content>div>h3{
-    color:white
-    }
-    #content>div>div>a{
-    color:gray;
-    text-decoration: none;
-    }
-    #content>div>div>a:hover{
-    text-decoration: underline;
-    color:white
-    }
-    /* #content>a{
-    color:red;
-    } */
-    .iOG{
-    width:80%;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap:10px
-    }
-    .icon{
-    font-size:30px;
-    padding:10px;
-    color:gray;
-    cursor:pointer;
-    }
-    #Email>div>input{
-    border:none;
-    background: transparent;
-    color:white
-    }
-    #Email>div>button{
-    padding:10px 30px;
-    border-radius: 5px;
-    background-color:#fc2779;
-    cursor:pointer;
-    border:none
-    }
 
+   /* Register */
+
+   #cont{
+    width:360px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:540px;
+    margin:auto;
+}
+#cont>div:nth-child(1){
+  height:80px;
+    background-color: black;
+    color:white;
+    padding:20px;
+    font-size: 15px;
+      }
+      #cont>div:nth-child(2){
+           padding:25px
+      }
+     input{
+          width:290px;
+          height:30px;
+          margin-top:10px;
+
+      }
+    button{
+       margin-top: 30px;
+       width:297px;
+       height:40px;
+       border: 2px solid black;
+     }
+     button:hover{
+       background-color:rgb(43, 40, 40);
+        color:white;
+     }

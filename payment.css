@@ -1,5 +1,6 @@
 #contact{
     display:flex;
+    margin-left:400px
 }
 #main-box{
     width:600px;
@@ -8,28 +9,28 @@
     margin:auto;
     margin:60px;
 }
-#mail{
+ #mail{
     width:525px;
     height:35px;
     border-radius: 5px;
     border: 1px solid;
     padding-left: 10px;
-}
+} 
 
-#address>div{
+/* #address>div{
     border:1px solid ;
     margin:8px
-}
+} */
 
 #country,#add,#apart,#phone{
-    width:545px;
+    width:550px;
     height:35px;
     margin-top:13px
 }
 #fname,#lname{
     height:35px;
     margin-top: 13px;
-    width:266px
+    width:550px
 }
 #city,#pin{
     margin-top:13px;
@@ -43,25 +44,29 @@
     display:flex;
     justify-content: space-between;
     margin-top: 30px;
+    
 }
 #btn{
     padding:20px;
-    margin-right: 45px;
     font-weight: bold;
     background-color: black;
     color:white;
     border:0px
+    
 
 }
 #btn:hover{
     cursor: pointer;
 }
 img{
-    width:150px
+    width:150px;
+    
 }
-@media only screen and (min-width:365)and (max-width:781){
-    /* #contact{
-       
-        flex-wrap: wrap;
-    } */
+
+#myform{
+    width:400px;
+    margin:auto
+}
+#head{
+    text-align: center;
 }

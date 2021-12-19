@@ -1,3 +1,4 @@
+/*            header part                   */
 #header  {
     display:grid;
     grid-template-rows: 100px;
@@ -98,8 +99,6 @@
 .menubar{
     width:100%;
     height:30px;
-
-
 }
 
 nav ul{
@@ -174,170 +173,155 @@ nav ul ul li a:hover{
     position: relative;
    }
 
- /* card */
-  
- .tabledata{
-     background-color: white;
- }
-.tabledata >div:nth-child(1){
+
+/*      middle part    */
+#cont{
+    font-family: Quicksand; 
     display:flex;
-    
-    justify-content: space-between;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.tabledata >div:nth-child(2){
-    display:flex;
-  
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.tabledata > div > div:nth-child(2)>button{
-    background-color: white;
-    border:none;
-    font-size: 25px;
-    margin-left:20px;
-}
-
-
-
-  #framew {
-    margin: auto;
-    width:100%;
-    max-width: 100%;
-    margin-top:0px;
-    
-}
-  .containerheader{
-    background-color: #212121;
-    color:white;
-    height:100px;
-    padding-top: 5px;
-    line-height:20px;
-    margin-top: -10px;
-  }
-  .price-table{
-      width:430px;
-      height:150px;
-     background-color: white;
-     
-  }
-  .cart-add{
-     
-      width:490px;
-      height:370px;
-      padding-top:30px;
-      background-color: rgb(238, 238, 238);
-  }
-  .con{
-      background-color: #ff4b4b;
-      width:430px;
-     border-radius: 5px;
-     color:white;
-     font-size:19px;
-     height: 35px;
-     line-height:30px;  
-  }
-  #btn{
-      margin:20px;
-      width:430px;
-      height:50px;
-      background-color:rgb(22, 21, 21);
-      color:white;
-      border:0px;
-      font-weight:bold;
-  }
-  #btn:hover{
-    cursor: pointer;
-  }
- hr{
-      width:400px;   
-  }
-#clear-cart{
-    display: flex;
+    margin:auto;
+    margin-top:30px;
+    width:70%;
+    min-height: 400px;
     justify-content: space-around;
-    margin-top: 20px;
+    /* border:1px solid red; */
+
 }
-#clear-cart>button{
-    width:180px;
-    height:35px;
-    border: 0px;
+#name{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#email{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#subject{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#phone{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#order{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#attachment{
+    width:90%;
+    height:30px;
+    border-radius: 5px;
+}
+#message{
+    width:90%;
+    min-height:30px;
+    border-radius: 5px;
+}
+#submit{
+    color:white;
+    border-radius: 5px;
+    border:none;
+    background-color: deeppink;
+    padding:10px 40px;
+    cursor: pointer;
+}        
+#leftbox{
+    font-family: Quicksand;
+    font-size: 16px;
+    color: #1B1919;
+    width:40%;
+    margin:15px;
+    padding:20px;
+    min-height: 200px;
+    /* border:1px solid black */
+}
+#titletop{
+    display: flex;
+    
+}
+#rightbox{
+    font-family: Quicksand;
+    width:40%;
+    min-height:400px;
+    padding:20px;
+    /* border:1px solid teal; */
+}
+#middle{
+    font-family: Quicksand;
+    display:flex;
+    /* border:1px solid red; */
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+#info1{
+    width:100%;
+    min-height:50px;
+    line-height:20px;
+    /* border:1px solid black;         */
+}
+#info2{
+    width:100%;
+    min-height:50px;
+    line-height:20px;
+    /* border:1px solid yellow;  */
+}
+#lower>a>i:nth-child(1){
+    font-size:24px;
+    background-color: darkslateblue;
+    border-radius:50%;
+    margin:5px;
     padding:10px;
-   margin-bottom: 100px;
-}
-#clear-cart>button:hover{
-    background-color:rgb(22, 21, 21);
-    color:white ;
-}
-#product-details>th{
-    border: 1px solid;
-    padding:10px 100px
+} 
+#lower>a>i:nth-child(2){
+    font-size:16px;
+    background-color: deepskyblue;
+    border-radius:50%;
+    margin:5px;
+    padding:10px;
+} 
+#lower>a>i:nth-child(3){
+    font-size:16px;
+    background-color: goldenrod;
+    border-radius:50%;
+    margin:5px;
+    padding:10px;
+} 
+#lower>a>i:nth-child(4){
+    font-size:16px;
+    background-color: saddlebrown;
+    border-radius:50%;
+    margin:5px;
+    padding:10px;
+} 
+#lower>a>i:nth-child(5){
+    font-size:20px;
+    background-color: firebrick;
+    border-radius:50%;
+    margin:5px;
+    padding:10px;
 } 
 
-
-/* table */
-#tablecontent{
-    width:100%;
-
-}
-#tablecontent > tbody {
-  
-    padding: 20px;
-
-}
-#tablecontents{
-    width:80%;
- 
-}
-#tablecontents > thead >tr >th{
-   
-    height:40px;
-    padding:20px;
-  
-}
+/*                              footer part            */
 
 
-.imageclass{
-    height:100px;
-    width:100px;
-}
 
-.deletebtn{
-    height:20px;
-    border:none;
-    width:80px;
-    padding:20px;
-    border-radius:10px;
-    color:#e4d6d6;
-    background-color: black;
-}
-/* footer */
-
-#footercontainer{
-    background-color: black;
-}
-.containerfooter{
+.container{
     background-color: black;
     color: white;
     width:100%;
-    margin-top:20px;
     min-height:50px;
-    }
-  .container1{
-      background-color: black;
-      color: white;
-      width:100%;
-    
-      min-height:50px;
-      }
-    #logo{
-    width:100%;
-    background-color: black;
+}
+#logo{
+    width:70%;
     margin:auto;
     justify-content: end;
     text-align: center;
-    }
-    #content{
+}
+#content{
     width:80%;
     margin:auto;
     height:450px;
@@ -345,8 +329,9 @@ nav ul ul li a:hover{
     grid-template-columns: repeat(4,1fr);
     /* border:1px solid red; */
     text-align:centre;
-    }
-    #content>div{
+}
+#content>div{
+
     font-family:Quicksand;
     width:90%;
     height:100%;
@@ -355,42 +340,43 @@ nav ul ul li a:hover{
     color:gray;
     font-size:16px;
     line-height:30px;
-    }
-    #content>div>h3{
+}
+#content>div>h3{
     color:white
-    }
-    #content>div>div>a{
+}
+#content>div>div>a{
     color:gray;
     text-decoration: none;
-    }
-    #content>div>div>a:hover{
+}
+#content>div>div>a:hover{
     text-decoration: underline;
     color:white
-    }
-    /* #content>a{
+}
+/* #content>a{
     color:red;
-    } */
-    .iOG{
+} */
+.iOG{
     width:80%;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap:10px
-    }
-    i{
+}
+i{
     font-size:30px;
     padding:10px;
     color:gray;
     cursor:pointer;
-    }
-    #Email>div>input{
+}
+#Email>div>input{
     border:none;
     background: transparent;
     color:white
-    }
-    #Email>div>button{
+}
+#Email>div>button{
     padding:10px 30px;
     border-radius: 5px;
     background-color:#fc2779;
     cursor:pointer;
     border:none
-    }
+
+}

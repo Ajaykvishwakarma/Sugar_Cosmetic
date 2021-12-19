@@ -1,214 +1,214 @@
 #header  {
-    display:grid;
-    grid-template-rows: 100px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 
-    "a a a b b b b b b c c c "
-    ;
-    margin:auto;
-    
+  display:grid;
+  grid-template-rows: 100px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 
+  "a a a b b b b b b c c c "
+  ;
+  margin:auto;
+  
 }
 #header1{
-    grid-area: a;
+  grid-area: a;
 }
 #header2{
-    grid-area: b;
-   
+  grid-area: b;
+ 
 }
 #header3{
-    grid-area: c;
+  grid-area: c;
 }
 
 @media only screen and (min-width:375px) and (max-width:768px)
 {
-  #header{
-    width:100%;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: 
-    "a"
-    "b"
-    "c";
-  }
+#header{
+  width:100%;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: 
+  "a"
+  "b"
+  "c";
+}
 }
 .headerimg{
-    height:80%;
-    width:70%;
-    margin:4px 50px;
+  height:80%;
+  width:70%;
+  margin:4px 50px;
 }
 
 #header2 input[type=text] {
-   
-    width:80%;
-    height:30px;
-    font-size: 17px;
-    padding:7px;
-    margin-left: 10px;
-    border:none;
-  }
+ 
+  width:80%;
+  height:30px;
+  font-size: 17px;
+  padding:7px;
+  margin-left: 10px;
+  border:none;
+}
 
-  
+
 #elementsContainer{
-    border:1px solid #dcdcdc;
-    width:100%;
-    margin-top: 10px;
-    height:20px;
-    margin:2px;
-  
+  border:1px solid #dcdcdc;
+  width:100%;
+  margin-top: 10px;
+  height:20px;
+  margin:2px;
+
 }
 .searchicon{
-    color:#dcdcdc;
-    margin:2px;
- 
+  color:#dcdcdc;
+  margin:2px;
+
 }
 #header3{
-    display:flex;
-    justify-content: space-evenly;
+  display:flex;
+  justify-content: space-evenly;
 }
 #header3 > div{
-    margin-top:35px;
+  margin-top:35px;
 
 }
 #header3 > div:nth-child(2){
-    margin-top:30px;
+  margin-top:30px;
 
 }
 .hicon1{
-    text-decoration: none;
-    font-size:15px;
-    color:#aca1a1;
-    font-style: italic;
-    font-family: Arial;
+  text-decoration: none;
+  font-size:15px;
+  color:#aca1a1;
+  font-style: italic;
+  font-family: Arial;
 }
 
 .active{
-    background:white;
-    border-radius:10px;
-    text-decoration: none;
-    font-family: Arial;
- }
+  background:white;
+  border-radius:10px;
+  text-decoration: none;
+  font-family: Arial;
+}
 
 .active:hover{
-     background:white;
-     transition:0s;
-     color:rgb(247, 64, 192);
-     text-decoration: none;
-        
-    }
-    #elementsContainer > tr> #tdid{
-        height:20px;
-        padding:0px;
-    }
+   background:white;
+   transition:0s;
+   color:rgb(247, 64, 192);
+   text-decoration: none;
+      
+  }
+  #elementsContainer > tr> #tdid{
+      height:20px;
+      padding:0px;
+  }
 
 /* Menu bar */
 
 .menubar{
-    width:100%;
-    height:30px;
+  width:100%;
+  height:30px;
 
 
 }
 
 nav ul{
-    padding : 0;
-    margin : 0;
-    float : left;
-    margin-right: 30px;
-    color:black;
-    font-weight: bold;   
+  padding : 0;
+  margin : 0;
+  float : left;
+  margin-right: 30px;
+  color:black;
+  font-weight: bold;   
 
 }
 nav ul li{
-    position : relative;
-    text-decoration: none;
-    display : inline-block;
+  position : relative;
+  text-decoration: none;
+  display : inline-block;
 
 }
 nav ul li a{
-  display : block;
-  padding : 0 20px;
-  color: black;
-  text-decoration: none;
-  line-height:30px;
-  font-size:15px;
-  font-family: 'Poppins', sans-serif;
+display : block;
+padding : 0 20px;
+color: black;
+text-decoration: none;
+line-height:30px;
+font-size:15px;
+font-family: 'Poppins', sans-serif;
 
 }
 nav ul ul a{
-    color:gray;
+  color:gray;
 
 }
 nav ul li a:hover{
- color:#fc2779;
+color:#fc2779;
 
- 
+
 }
 nav ul ul{
-  position:absolute;
-  display:none;
-  top:30px;
+position:absolute;
+display:none;
+top:30px;
 }
 nav ul ul h3{
-    margin-left:20px;
-    margin-bottom:2px;
-    font-family: 'Poppins', sans-serif;
-}
-nav ul li:hover > ul{
-  display:block;
-  background-color: white;
   margin-left:20px;
-
-
-  
-}
-nav ul ul li{
-  width:250px;
-  float:none;
-  height:10px;
-  position:relative;
-  margin-top:3px;
- 
-  font-size:8px;
-  font-weight: lighter;
+  margin-bottom:2px;
   font-family: 'Poppins', sans-serif;
 }
-nav ul ul li a:hover{
-    width:250px;
-    position:relative;
-    margin-left: 10px;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-   }
-         #cont{
-           width:360px;
-           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-             height:540px;
-             margin:auto;
-       }
-       #cont>div:nth-child(1){
-           height:80px;
-             background-color: black;
-             color:white;
-             padding:20px;
-             font-size: 15px;
-               }
-               #cont>div:nth-child(2){
-                    padding:25px
-               }
-              input{
-                   width:290px;
-                   height:30px;
-                   margin-top:15px;
+nav ul li:hover > ul{
+display:block;
+background-color: white;
+margin-left:20px;
 
-               }
-             button{
-                margin-top: 30px;
-                width:297px;
-                height:40px;
-                border: 2px solid black;
-              }
-              button:hover{
-                background-color:rgb(43, 40, 40);
-                 color:white;
-              }
+
+
+}
+nav ul ul li{
+width:250px;
+float:none;
+height:10px;
+position:relative;
+margin-top:3px;
+
+font-size:8px;
+font-weight: lighter;
+font-family: 'Poppins', sans-serif;
+}
+nav ul ul li a:hover{
+  width:250px;
+  position:relative;
+  margin-left: 10px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+ }
+       #cont{
+         width:360px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           height:540px;
+           margin:auto;
+     }
+     #cont>div:nth-child(1){
+         height:80px;
+           background-color: black;
+           color:white;
+           padding:20px;
+           font-size: 15px;
+             }
+             #cont>div:nth-child(2){
+                  padding:25px
+             }
+            input{
+                 width:290px;
+                 height:30px;
+                 margin-top:15px;
+
+             }
+           button{
+              margin-top: 30px;
+              width:297px;
+              height:40px;
+              border: 2px solid black;
+            }
+            button:hover{
+              background-color:rgb(43, 40, 40);
+               color:white;
+            }

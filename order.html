@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order page</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <center>
+    <!-- logo -->
+    <div id="logo">
+        <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_2048x_320x320_394549fd-c58e-4c98-adcd-aec71b75a1e5.png?90005" alt="logo" style="width:100px">
+            <span><p><a href="cart.html" style="color:rgb(233, 72, 120); text-decoration: none;">Cart</a> > <a href="payment.html" style="color:rgb(233, 72, 120); text-decoration: none;">Information </a>> Payment</p></span>
+            
+    <!-- table-part -->
+        <h3 style="line-height: 3px; margin-top: 50px;">Payment</h3>
+        <p>All transactions are secure and encrypted</p>
+        <!-- <button>COMPLETE ORDER</button> -->
+    </div>
+    <form id="myform">
+        <div>
+            <h2>Payment Method</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/200px-Visa.svg.png" alt="visa">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2p-fF7oV9WQ11X8elKBHrzE670vACnvjCSb_EOSTJORqJ5abkKUQqd3dTukA5KYCd2XI&usqp=CAU" alt="master">
+            <img src="https://www.pngitem.com/pimgs/m/274-2746824_bhim-icon-png-image-free-download-searchpng-bhim.png" alt="upi">
+        </div>
+        <hr>
+        <p>card holder's name</p>
+        <input type="text" id="name" placeholder="Enter name">
+        <p>card number</p>
+        <input type="number" id="number" placeholder="Enter number">
+        <div>
+            <div>
+                <p>Expire Date</p>
+                <input type="date" id="date">
+                </div>
+                <div>
+                <p>CVV</p>
+                <input type="text" id="cvv">
+            </div>
+        </div>
+       
+        <a href="paymentsucess.html" ><input type="submit"value="COMPLETE ORDER" id="buton"></a>
+    </form>
+    <!-- <button id="btn"> <a href="paymentsucess.html" style="text-decoration: none; color:white; font-weight: bold;">COMPLETE ORDER</a>
+        </button> -->
+    </center>
+
+</body>
+</html>
+<script src="order.js"></script>

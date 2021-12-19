@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>payment page</title>
-    <link rel="stylesheet" href="payment.css">
-    <!-- <link rel="stylesheet" href="https://docs.microsoft.com/en-us/typography/font-list/segoe-ui"> -->
-</head>
-<body>
-    <form id="main-box">
-        <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_2048x_320x320_394549fd-c58e-4c98-adcd-aec71b75a1e5.png?90005" alt="logo">
-        <span><p><a href="cart.html" style="color:rgb(233, 72, 120); text-decoration: none;">Cart</a> > Information > Payment</p></span>
-        <div id="contact">
-            <p>Contact information</p>
-            <p style="padding-left:200px;">Already have an account? <a href="login.html"style="color:rgb(233, 72, 120); text-decoration: none;" >log in</a>
-            </p>  
-        </div>
-        <input type="text" placeholder="Email" id="mail"><br><br>
-        <input type="checkbox">
-        <label >Email me with news and offers</label><br><br><br>
-        <label>Shipping address</label>
-        <div id="address">
-           <select  id="country">
-               <option value="--">Country/region</option>
-               <option value="india">india</option>
-           </select>
-           <input type="text" id="fname"placeholder="First name">
-           <input type="text"id="lname" placeholder="Last name">
-           <input type="text" placeholder="Address" id="add">
-           <input type="text" placeholder="Apartment,suite,etc.(optional)" id="apart">
-           <input type="text"id="city" placeholder="City" >
-           <select  id="state" >
-               <option value="--">state</option>
-               <option value="odisha">odisha</option>
-        </select>
-           <input type="text" id="pin" placeholder="PIN Code">
-           <input type="number" placeholder="Phone" id="phone"><br><br>
-        </div>
-       <input type="checkbox">
-        <label >Save this information for next time</label>
-        <div id="payment">
-            <p><a href="cart.html" style="text-decoration: none; color:rgb(199, 53, 78)">< Return to cart</a>  </p>
-            <a href="order.html"><input type="submit" value="CONTINUE TO PAYMENT METHOD" id="btn"></a>
-        </div>
-    </form>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>payment page</title>
+        <link rel="stylesheet" href="payment.css">
+        
+    </head>
+    <body>
+        <!-- <form id="main-box"> -->
+         <div id="head">
+            <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_2048x_320x320_394549fd-c58e-4c98-adcd-aec71b75a1e5.png?90005" alt="logo">
+           <span><p><a href="cart.html" style="color:rgb(233, 72, 120); text-decoration: none;">Cart</a> > Information > Payment</p></span>
+            </div>
+            <div id="contact">
+                <p>Contact information</p>
+                <p style="padding-left:200px;">Already have an account? <a href="login.html"style="color:rgb(233, 72, 120); text-decoration: none;" >log in</a>
+                    </p>  
+            </div>
+            <form id="myform">
+                <input type="text" placeholder="Email" id="mail"><br><br>
+                <input type="checkbox">
+                <label >Email me with news and offers</label><br><br><br>
+                <label>Shipping address</label><br>
+                <!-- <div id="address"> -->
+                <select  id="country">
+                    <option value="--">Country/region</option>
+                    <option value="india">india</option>
+                </select>
+                <input type="text" id="fname"placeholder="First name">
+                <input type="text"id="lname" placeholder="Last name">
+                <input type="text" placeholder="Address" id="add">
+                <input type="text" placeholder="Apartment,suite,etc.(optional)" id="apart">
+                <input type="text"id="city" placeholder="City" >
+                <select  id="state" >
+                    <option value="--">state</option>
+                    <option value="odisha">odisha</option>
+                </select>
+                <input type="number" id="pin" placeholder="PIN Code">
+                <input type="number" placeholder="Phone" id="phone"><br><br>
+                <!-- </div> -->
+            
+                <input type="checkbox">
+                <label >Save this information for next time</label>
+                 <div id="payment"> 
+                    <p><a href="cart.html" style="text-decoration: none; color:rgb(199, 53, 78)"> Return to cart</a>  </p>
+                    <a href="order.html"><input type="submit" value="CONTINUE TO PAYMENT" id="btn" ></a>
+                </div>
+            </form>    
+    </body>
 </html>
-<script scr="payment.js"></script>
+<script src="payment.js"></script>

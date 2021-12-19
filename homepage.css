@@ -315,7 +315,9 @@ nav ul ul li a:hover{
     }
 }
 
-
+#maindiv{
+   width:100%;
+}
 .headtag {
     font-size: 26px;
     /* color: #1B1919; */
@@ -329,7 +331,7 @@ nav ul ul li a:hover{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 550px;
-    width: 85%;
+    width: 94%;
     margin: auto;
     grid-gap: 20px;
     margin-top: 50px;
@@ -338,6 +340,7 @@ nav ul ul li a:hover{
   #maincard > div {
     /* border: 1px solid red; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
   }
   
   #mainp {
@@ -361,6 +364,9 @@ nav ul ul li a:hover{
     position: relative;
     display: inline-block;
     height:550px;
+    width:250px;
+    
+
   }
   
   .card .imgtop {
@@ -602,7 +608,7 @@ nav ul ul li a:hover{
     background: url(https://cdn.shopify.com/s/files/1/0906/2558/files/Quick_Tips_-_Banner_1-1920x453_346249df-dc33-4806-98be-b6cba8ca30ca.jpg?v=1639042068);
   }
   #slides .frame_3 {
-    background: url(https://lh3.googleusercontent.com/W2wmG4TlOwjslBZrX48w_hDCba_K7oQsYT-u73lAtXqEpWKoHcz2qijPvEN-fE8x-iy-sbpHefYm31c7thM1n9LxGAbUXdf7P3CUwko);
+    background: url(https://cdn.shopify.com/s/files/1/0906/2558/files/Quick-tips-banner-01-1920x453_17d02458-1164-4364-868d-06eda38143a7.jpg?v=1639041471);
   }
   #slides .frame_4 {
     background: url(https://lh3.googleusercontent.com/zXxH2mlSG_AAIZPUCe2BIRLtAifKO3h8k0c_lthyvXlIAVc26ZIB1aMQyGH6cBdLpLleL3qhnnuDmA0jO6NZV7BOM02cFZmJ5UvP62Im);

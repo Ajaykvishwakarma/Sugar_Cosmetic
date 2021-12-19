@@ -1,9 +1,16 @@
-document.querySelector("#button").addEventListener("click",emptycart)
-function emptycart(){
-    window.location.href="emptycart.html";
-}
-document.querySelector("button").addEventListener("click",additem)
 
-function additem(){
-    
-}
+
+
+
+var usercart = JSON.parse(localStorage.getItem("cartdatabase")) || [];
+var buttun = document.querySelector("#subpricebutton");
+
+var total = 0;
+console.log(usercart)
+
+usercart.map(function (elem){
+    total = total + Number(elem.price)
+ 
+})
+buttun.textContent ="Rs.  " + total;
+

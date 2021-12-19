@@ -7,20 +7,20 @@
     ;
     margin:auto;
     
-}
-#header1{
+  }
+  #header1{
     grid-area: a;
-}
-#header2{
+  }
+  #header2{
     grid-area: b;
    
-}
-#header3{
+  }
+  #header3{
     grid-area: c;
-}
-
-@media only screen and (min-width:375px) and (max-width:768px)
-{
+  }
+  
+  @media only screen and (min-width:375px) and (max-width:768px)
+  {
   #header{
     width:100%;
     grid-template-rows: 80px 80px 80px;
@@ -30,14 +30,14 @@
     "b"
     "c";
   }
-}
-.headerimg{
+  }
+  .headerimg{
     height:80%;
     width:70%;
     margin:4px 50px;
-}
-
-#header2 input[type=text] {
+  }
+  
+  #header2 input[type=text] {
    
     width:80%;
     height:30px;
@@ -46,78 +46,78 @@
     margin-left: 10px;
     border:none;
   }
-
   
-.elementsContainer{
+  
+  .elementsContainer{
     border:1px solid #dcdcdc;
     width:100%;
     margin-top: 20px;
   
-}
-.searchicon{
+  }
+  .searchicon{
     color:#dcdcdc;
- 
-}
-#header3{
+  
+  }
+  #header3{
     display:flex;
     justify-content: space-evenly;
-}
-#header3 > div{
+  }
+  #header3 > div{
     margin-top:35px;
-
-}
-#header3 > div:nth-child(2){
+  
+  }
+  #header3 > div:nth-child(2){
     margin-top:30px;
-
-}
-.hicon1{
+  
+  }
+  .hicon1{
     text-decoration: none;
     font-size:15px;
     color:#aca1a1;
     font-style: italic;
     font-family: Arial;
-}
-
-.active{
+  }
+  
+  .active{
     background:white;
     border-radius:10px;
     text-decoration: none;
     font-family: Arial;
- }
-
-.active:hover{
+  }
+  
+  .active:hover{
      background:white;
      transition:0s;
      color:rgb(247, 64, 192);
      text-decoration: none;
         
     }
-
-/* Menu bar */
-
-.menubar{
+  
+  /* Menu bar */
+  
+  .menubar{
     width:100%;
     height:30px;
-
-
-}
-
-nav ul{
+  
+  
+  }
+  
+  nav ul{
     padding : 0;
     margin : 0;
     float : left;
     margin-right: 30px;
     color:black;
     font-weight: bold;   
-
-}
-nav ul li{
+  
+  }
+  nav ul li{
     position : relative;
     text-decoration: none;
     display : inline-block;
-
-}
-nav ul li a{
+  
+  }
+  nav ul li a{
   display : block;
   padding : 0 20px;
   color: black;
@@ -125,47 +125,47 @@ nav ul li a{
   line-height:30px;
   font-size:15px;
   font-family: 'Poppins', sans-serif;
-
-}
-nav ul ul a{
+  
+  }
+  nav ul ul a{
     color:gray;
-
-}
-nav ul li a:hover{
- color:#fc2779;
-
- 
-}
-nav ul ul{
+  
+  }
+  nav ul li a:hover{
+  color:#fc2779;
+  
+  
+  }
+  nav ul ul{
   position:absolute;
   display:none;
   top:30px;
-}
-nav ul ul h3{
+  }
+  nav ul ul h3{
     margin-left:20px;
     margin-bottom:2px;
     font-family: 'Poppins', sans-serif;
-}
-nav ul li:hover > ul{
+  }
+  nav ul li:hover > ul{
   display:block;
   background-color: white;
   margin-left:20px;
-
-
   
-}
-nav ul ul li{
+  
+  
+  }
+  nav ul ul li{
   width:250px;
   float:none;
   height:10px;
   position:relative;
   margin-top:3px;
- 
+  
   font-size:8px;
   font-weight: lighter;
   font-family: 'Poppins', sans-serif;
-}
-nav ul ul li a:hover{
+  }
+  nav ul ul li a:hover{
     width:250px;
     position:relative;
     margin-left: 10px;
@@ -173,166 +173,43 @@ nav ul ul li a:hover{
     z-index: 1;
     position: relative;
    }
-
- /* card */
   
- .tabledata{
-     background-color: white;
- }
-.tabledata >div:nth-child(1){
-    display:flex;
-    
-    justify-content: space-between;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.tabledata >div:nth-child(2){
-    display:flex;
   
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.tabledata > div > div:nth-child(2)>button{
-    background-color: white;
-    border:none;
-    font-size: 25px;
-    margin-left:20px;
-}
-
-
-
+  /* slider */
   #framew {
     margin: auto;
     width:100%;
     max-width: 100%;
     margin-top:0px;
     
-}
-  .containerheader{
-    background-color: #212121;
-    color:white;
-    height:100px;
-    padding-top: 5px;
-    line-height:20px;
-    margin-top: -10px;
   }
-  .price-table{
-      width:430px;
-      height:150px;
-     background-color: white;
-     
-  }
-  .cart-add{
-     
-      width:490px;
-      height:370px;
-      padding-top:30px;
-      background-color: rgb(238, 238, 238);
-  }
-  .con{
-      background-color: #ff4b4b;
-      width:430px;
-     border-radius: 5px;
-     color:white;
-     font-size:19px;
-     height: 35px;
-     line-height:30px;  
-  }
-  #btn{
-      margin:20px;
-      width:430px;
-      height:50px;
-      background-color:rgb(22, 21, 21);
+  .container1{
+      background-color: #212121;
       color:white;
-      border:0px;
-      font-weight:bold;
+      height:100px;
+      padding-top: 5px;
+      line-height:20px;
+    }
+    button{
+      background-color: #fc2779;
+      color:white;
+      border: 0px;
+      padding:10px;
+      margin-bottom: 40px;
   }
-  #btn:hover{
-    cursor: pointer;
+  button:hover{
+      cursor: pointer;
   }
- hr{
-      width:400px;   
-  }
-#clear-cart{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-#clear-cart>button{
-    width:180px;
-    height:35px;
-    border: 0px;
-    padding:10px;
-   margin-bottom: 100px;
-}
-#clear-cart>button:hover{
-    background-color:rgb(22, 21, 21);
-    color:white ;
-}
-#product-details>th{
-    border: 1px solid;
-    padding:10px 100px
-} 
-
-
-/* table */
-#tablecontent{
-    width:100%;
-
-}
-#tablecontent > tbody {
   
-    padding: 20px;
-
-}
-#tablecontents{
-    width:80%;
- 
-}
-#tablecontents > thead >tr >th{
-   
-    height:40px;
-    padding:20px;
-  
-}
-
-
-.imageclass{
-    height:100px;
-    width:100px;
-}
-
-.deletebtn{
-    height:20px;
-    border:none;
-    width:80px;
-    padding:20px;
-    border-radius:10px;
-    color:#e4d6d6;
-    background-color: black;
-}
-/* footer */
-
-#footercontainer{
-    background-color: black;
-}
-.containerfooter{
+  .container{
     background-color: black;
     color: white;
     width:100%;
-    margin-top:20px;
     min-height:50px;
+    margin-top:0px
     }
-  .container1{
-      background-color: black;
-      color: white;
-      width:100%;
-    
-      min-height:50px;
-      }
     #logo{
-    width:100%;
-    background-color: black;
+    width:70%;
     margin:auto;
     justify-content: end;
     text-align: center;

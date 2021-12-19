@@ -1,9 +1,14 @@
-document.querySelector("#btn").addEventListener("submit",addresspart)
- var data=JSON.parse(localStorage.getItem("addressdata"))||[]
+document.querySelector("#myform").addEventListener("submit",addresspart)
+  var data=JSON.parse(localStorage.getItem("addressdata"))||[];
+
+   var button = document.querySelector("#btn").addEventListener("click",function(){
+       window.location.href="order.html"
+   })
+  
 function addresspart(event){
-    event.preventDefault()
-    var email=document.querySelector("#mail").value
-    var select=document.querySelector("#country").value
+    event.preventDefault();
+    var email=document.querySelector("#mail").value;
+    var country=document.querySelector("#country").value
     var firstname=document.querySelector("#fname").value
     var lastname=document.querySelector("#lname").value
     var address=document.querySelector("#add").value
@@ -12,11 +17,11 @@ function addresspart(event){
     var pin=document.querySelector("#pin").value
     var phone=document.querySelector("#phone").value
 
-     console.log(email,firstname,lastname,select,address,city,state,pin,phone)
-    //console.log("here");
+    //  console.log(email,firstname,lastname,country,address,city,state,pin,phone)
+    // console.log("here");
     var obj={
         email:email,
-        catagory:select,
+        catagory:country,
         firstname:firstname,
         lastname:lastname,
        address:address,
@@ -25,9 +30,9 @@ function addresspart(event){
        pin:pin,
        phone:phone,
        
-    }
-     data.push(obj)
-     console.log(data)
+    };
+      data.push(obj)
+     console.log(obj)
      localStorage.setItem("addressdata",JSON.stringify(data))
-     
+    //   window.location.href="order.html";
 }

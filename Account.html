@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="footer.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand'
+        rel='stylesheet'>
+    <style>
+        #header  {
+    display:grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "a a a b b b b b b c c c "
+    ;
+    margin:auto;
+    
+}
+#header1{
+    grid-area: a;
+}
+#header2{
+    grid-area: b;
+   
+}
+#header3{
+    grid-area: c;
+}
+
+@media only screen and (min-width:375px) and (max-width:768px)
+{
+  #header{
+    width:100%;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+  }
+}
+.headerimg{
+    height:80%;
+    width:70%;
+    margin:4px 50px;
+}
+
+#header2 input[type=text] {
+   
+    width:80%;
+    height:30px;
+    font-size: 17px;
+    padding:7px;
+    margin-left: 10px;
+    border:none;
+  }
+
+  
+.elementsContainer{
+    border:1px solid #dcdcdc;
+    width:100%;
+    margin-top: 20px;
+  
+}
+.searchicon{
+    color:#dcdcdc;
+ 
+}
+#header3{
+    display:flex;
+    justify-content: space-evenly;
+}
+#header3 > div{
+    margin-top:35px;
+
+}
+#header3 > div:nth-child(2){
+    margin-top:30px;
+
+}
+.hicon1{
+    text-decoration: none;
+    font-size:15px;
+    color:#aca1a1;
+    font-style: italic;
+    font-family: Arial;
+}
+
+.active{
+    background:white;
+    border-radius:10px;
+    text-decoration: none;
+    font-family: Arial;
+ }
+
+.active:hover{
+     background:white;
+     transition:0s;
+     color:rgb(247, 64, 192);
+     text-decoration: none;
+        
+    }
+
+/* Menu bar */
+
+.menubar{
+    width:100%;
+    height:30px;
+
+
+}
+
+nav ul{
+    padding : 0;
+    margin : 0;
+    float : left;
+    margin-right: 30px;
+    color:black;
+    font-weight: bold;   
+
+}
+nav ul li{
+    position : relative;
+    text-decoration: none;
+    display : inline-block;
+
+}
+nav ul li a{
+  display : block;
+  padding : 0 20px;
+  color: black;
+  text-decoration: none;
+  line-height:30px;
+  font-size:15px;
+  font-family: 'Poppins', sans-serif;
+
+}
+nav ul ul a{
+    color:gray;
+
+}
+nav ul li a:hover{
+ color:#fc2779;
+
+ 
+}
+nav ul ul{
+  position:absolute;
+  display:none;
+  top:30px;
+}
+nav ul ul h3{
+    margin-left:20px;
+    margin-bottom:2px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li:hover > ul{
+  display:block;
+  background-color: white;
+  margin-left:20px;
+
+
+  
+}
+nav ul ul li{
+  width:250px;
+  float:none;
+  height:10px;
+  position:relative;
+  margin-top:3px;
+ 
+  font-size:8px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
+nav ul ul li a:hover{
+    width:250px;
+    position:relative;
+    margin-left: 10px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+   }
+
+
+  /* slider */
+  #framew {
+    margin: auto;
+    width:100%;
+    max-width: 100%;
+    margin-top:0px;
+    
+}
+      #Acount-cont{
+          width:100%;
+          height:100px;
+          background-color:rgb(43 40 40);
+            color:white;
+         text-align: center;
+        }
+        #box{
+            display:flex
+        }
+        #box>div:nth-child(1){
+            width:290px;
+            height:300px;
+            /* border: 1px solid black; */
+            margin: 20px 120px;
+            display:flex;
+            flex-direction: column;
+
+        }
+        h4{
+            text-align: center;
+            background-color:rgb(43 40 40) ;
+            height:40px;
+            padding-top: 10px;
+            color: white;
+
+        }
+        button{
+            margin-top: 0px;
+            cursor: pointer; 
+            height:38px;
+            
+        }
+        .container{
+    background-color: black;
+    color: white;
+    width:100%;
+    min-height:50px;
+    margin-top:0px
+    }
+    #logo{
+    width:70%;
+    margin:auto;
+    justify-content: end;
+    text-align: center;
+    }
+    #content{
+    width:80%;
+    margin:auto;
+    height:450px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border:1px solid red; */
+    text-align:centre;
+    }
+    #content>div{
+    font-family:Quicksand;
+    width:90%;
+    height:100%;
+    /* border:1px solid yellow; */
+    margin:10px;
+    color:gray;
+    font-size:16px;
+    line-height:30px;
+    }
+    #content>div>h3{
+    color:white
+    }
+    #content>div>div>a{
+    color:gray;
+    text-decoration: none;
+    }
+    #content>div>div>a:hover{
+    text-decoration: underline;
+    color:white
+    }
+    /* #content>a{
+    color:red;
+    } */
+    .iOG{
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px
+    }
+    i{
+    font-size:30px;
+    padding:10px;
+    color:gray;
+    cursor:pointer;
+    }
+    #Email>div>input{
+    border:none;
+    background: transparent;
+    color:white
+    }
+    #Email>div>button{
+    padding:10px 30px;
+    border-radius: 5px;
+    background-color:#fc2779;
+    cursor:pointer;
+    border:none
+    }
+    </style>
+</head>
+<body>
+    <div id = "header">
+        <div id = "header1"><img class = "headerimg" src = "https://cdn.shopify.com/s/files/1/0906/2558/files/Christmas-Logo-SUGAR_600x.gif?v=1638853234"/></div>
+        <div id = "header2"> 
+            <table class = "elementsContainer">
+                <tr>
+                    <td>
+                        <input type ="text" placeholder = "Serch for products" class = "search">
+                    </td>
+                    <td>
+                        <a href = "" class = "searchicon"><i class="fa fa-search fa-2x "></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id = "header3">
+            <div><a class = "hicon1" href ="login.html">Login / Register</a></div>
+            <div><a class = "hicon2" href = "login.html"><i  class="fa fa-heart-o fa-2x" style = "color:black;"></i></a>&emsp;;<a  class = "hicon" href = "cart.html"><i  class="fa fa-shopping-cart fa-2x" style = "color:black;"></i></a></div>
+        </div>
+    </div>
+    <hr style="width:100%">
+    <!--Menu Bar-->
+    <div class = "menubar">
+    
+      <nav>
+          <ul>
+              <li><a href = "makeuppage.html">MAKEUP <i class="fa fa-angle-down"></i></a>
+                  <ul>
+                      <h3>LIPS</h3>
+                      <li><a href = "makeuppage.html">LIPSTICS</a></li>
+                      <li><a href = "makeuppage.html">LIP CARE</a></li>
+                      <li><a href = "makeuppage.html">VALUE SETS</a></li>
+                      <li><a href = "makeuppage.html">GIFTING</a></li>
+                  </ul>
+              </li>
+              <li><a href = "brushes.html">BRUSHES  <i class="fa fa-angle-down"></i></a>
+                  <ul>
+                      <li><a href = "brushes.html">FACE BRUSHES <i class="fa  fa-angle-right"></i> </a></li>
+                      <li><a href = "brushes.html">EYES BRUSHES <i class="fa  fa-angle-right"></i></a></li>
+                      <li><a href = "brushes.html">BRUSHES COMBO <i class="fa  fa-angle-right"></i></a></li>
+                  </ul>
+              </li>
+              <li><a href = "skincare.html">SKINCARE  <i class="fa fa-angle-down"></i></a>
+                <ul>
+                    <li><a href = "skincare.html">COFFE CULTURE RANGE</a></li>
+                    <li><a href = "skincare.html">AQUAHOLIC RANGE</a></li>
+                    <li><a href = "skincare.html">CITRUS GOT REAL RANGE</a></li>
+                    <li><a href = "skincare.html">MOISTURIZERS</a></li>
+                    <li><a href = "skincare.html">MASKS</a></li>
+                </ul>
+            </li>
+              <li><a href = "blog.html">BLOG  <i class="fa fa-angle-down"></i></a>
+                  <ul>
+                      <li><a href = "blog.html">FEATURED</a></li>
+                      <li><a href = "blog.html">MAKEUP</a></li>
+                      <li><a href = "blog.html">SKIN</a></li>
+                      <li><a href = "blog.html">CARE</a></li>
+                      <li><a href = "blog.html">QUIZ</a></lI>
+                  </ul>
+              </li>
+              <li><a href = "offerspage.html">OFFERS</a></li>
+              <li><a href = "trendingpage.html">TRENDING  <i class="fa fa-angle-down"></i> </a>
+                  <ul>
+                      <li><a href = "trendingpage.html">SUGAR MERCH STATION  <i class="fa fa-angle-right"></i> </a></li>
+                      <li><a href = "trendingpage.html">MINIS SET</a></li>
+                      <li><a href = "trendingpage.html">NEW LAUNCHES</a></li>
+                      <li><a href = "trendingpage.html">GIFTING</a></li>
+                      <li><a href = "trendingpage.html">BESTSELLERS</a></li>
+                  </ul>
+              </li>
+              <li><a href = "kitspage.html">KITS  <i class="fa fa-angle-down"></i> </a>
+                  <ul>
+                      <li><a href = "kitspage.html">LIMITED EDITION</a></li>
+                      <li><a href = "kitspage.html">VALUE SET </a></li>
+                      <li><a href = "kitspage.html">SUGAR SETS <i class="fa fa-angle-right"></i></a></li>
+                  </ul>
+              </li>
+              
+          </ul>
+        </nav>
+    
+      </div>
+      <hr>
+      <!-- account part -->
+      <center>
+    <div id="Acount-cont">
+        <h1>MY ACCOUNT</h1>
+        <h4><a href="homepage.html" style="text-decoration: none; color: white;"><i class="fa  fa-home" style="color:white"></i>Home</a>  / My Account</h4>
+    </div>
+    </center>
+    <div id="box">
+        <div>
+            <h4>MY ACCOUNT</h4>
+          <button>PROFILE</button>
+          <button>ORDER</button>
+          <button>ADDRESSES</button>
+          <button>WISHLIST</button>
+          <button>LOGOUT</button>
+        </div>
+        <div></div>
+    </div>
+    <!-- footer part -->
+    <div class="container">
+        <!-- the logo&icon part -->
+        <div id="logo">
+        <img
+        width=20%
+        height=20%
+        src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugr_logo_white-02_600x.png" alt="this is not a image"/>
+        <br>
+        <br>
+        <div>
+        <a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://gmail.google.com"><i class="fa fa-envelope
+        fa-2x"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.youtube.com"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        </div>
+        </div>
+        <!-- the Information Part -->
+        <div class="container">
+        <!-- INformation -->
+        <div id="content">
+        <div>
+        <h3>INFORMATION</h3>
+        <div><a href="Contactus.html">Contact Us</a></div>
+        <div><a href="Contactus.html">Store Locator</a></div>
+        <div><a href="Contactus.html">Terms&Conditions</a></div>
+        <div><a href="Contactus.html">Returns</a></div>
+        <div><a href="Contactus.html">FAQ's</a></div>
+        <div><a href="Contactus.html">About Us</a></div>
+        </div>
+        <!-- Customer part -->
+        <div Id="info">
+        <h3>CUSTOMER CARE</h3>
+        <div><i class="fa fa-mobile fa-1x" style="color:white"
+        ></i>:13161-1654651564</div>
+        <div><i class="fa fa-mobile fa-1x"
+        style="color:white"></i>:517-29864187</div>
+        <div style="color:white">(Monday to Friday 9AM-7PM).</div>
+        <div><i class="fa fa-envelope-open fa-1x"
+        style="color:white"></i>:hello@sugarcosmetics</div>
+        <div><i class="fa fa-external-link"
+        style="color:white"></i>:<a href="blog.html">INFLUENCER COLLAB</a></div>
+        <div><i class="fa fa-external-link"
+        style="color:white"></i>:<a href="blog.html">WORK WITH US</a></div>
+        <div><i class="fa fa-external-link"
+        style="color:white"></i>:<a href="blog.html">PRESS&MEDIA</a></div>
+        </div>
+        <!-- app support part -->
+        <div id="app">
+        <h3>GET THE NEW SUGAR APP TODAY</h3>
+        <div>Tap into a Better Shopping experience</div><br>
+        <div class="iOG">
+        <div>
+        <a href="Contactus.html"><img
+        width="95%"
+        height=80%
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google_Play_Store_badge_EN"/>
+        </a></div>
+        <div>
+        <a href="Contactus.html">
+        <img
+        width=95%
+        height=80%
+        src="https://cdn.shopify.com/s/files/1/0906/2558/files/apple-store.png?v=1580269780" alt="IOS"/>
+        </a></div>
+        </div>
+        </div>
+        <!-- the email part -->
+        <div id="Email">
+        <h3>NEWSLETTER</h3>
+        <br>
+        <div><i class="fa fa-envelope fa-1x"></i><input type="text"
+        placeholder="Your email address" /></div>
+        <hr>
+        <div>
+        <button onclick="showalert">Sign UP</button>
+        </div>
+        </div>
+        </div>
+        <!-- the ccopyrights part -->
+        <div class="container">
+        <hr style="width:80% ;margin:auto">
+        <div style="text-align: center;">Copyrights<i class="fa fa-copyright
+        fa-1x" style="color:white"></i>2021 SUGAR Cosmetics.All rights reserved</div>
+        </div>
+</body>
+</html>

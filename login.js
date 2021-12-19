@@ -38,8 +38,8 @@ document.querySelector("#btn2").addEventListener("click",googlepage)
 function googlepage(){
     window.location.href="https://www.google.com";
 }
-document.querySelector("#btn3").addEventListener("click",regdpage)
+// document.querySelector("#btn3").addEventListener("click",regdpage)
 
-function regdpage(){
-    window.location.href="register.html";
-}
+// function regdpage(){
+//     window.location.href="register.html";
+// }

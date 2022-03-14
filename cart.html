@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Page</title>
-    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style/cart.css">
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="footer.css" rel="stylesheet">
+    <link href="style/footer.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Quicksand'
         rel='stylesheet'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
        
-        <link href="//db.onlinewebfonts.com/c/09f5b7000fbfca6a06aa5ffa21f63afd?family=Neutraface+Display+Titling"
-            rel="stylesheet" type="text/css" />
+        <!-- <link href="//db.onlinewebfonts.com/c/09f5b7000fbfca6a06aa5ffa21f63afd?family=Neutraface+Display+Titling"
+            rel="stylesheet" type="text/css" /> -->
 
 </head>
 <body>
@@ -99,7 +99,7 @@
             <div class="gl">
             <div class="containerheader">
                 <h1>CART</h1>
-                <h5><i class="fa fa-home"></i> <a href="homepage.html" style="color:white; text-decoration: none;">Home</a>  /  Cart</h5>
+                <h5><i class="fa fa-home"></i> <a href="index.html" style="color:white; text-decoration: none;">Home</a>  /  Cart</h5>
             </div>
         </div>
           
@@ -253,9 +253,9 @@
 </html>
 <script>
 
-var usercart = JSON.parse(localStorage.getItem("cartdatabase")) || [];
-var buttun = document.querySelector("#subpricebutton");
-var buttun1 = document.querySelector("#subpricebutton1");
+ var usercart = JSON.parse(localStorage.getItem("cartdatabase")) || [];
+ var buttun = document.querySelector("#subpricebutton");
+ var buttun1 = document.querySelector("#subpricebutton1");
  var buttun2 = document.querySelector("#update");
  var buttun3 = document.querySelector("#button");
 

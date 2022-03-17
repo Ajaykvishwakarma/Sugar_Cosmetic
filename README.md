@@ -38,7 +38,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 
 ### Image
 
-![alt text](https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw96cbad45/images/homepage/logo.jpg)
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvgu_pesNDstPRKB7ZvJurfZbqNUkrmZkQoQ&usqp=CAU)
 
 ---
 ### Landing page

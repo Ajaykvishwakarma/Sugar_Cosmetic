@@ -95,13 +95,13 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 ---
 
 # Creators 
-[@rajarsi](https://github.com/vijendrasaini)
+[@rajarsi](https://github.com/RajarsiMukherjee)
 
 [@anand](https://github.com/walsonFerrao)
 
-[@jayashmita](https://github.com/tanishaa17)
+[@jayashmita](https://github.com/jayasmita12)
 
-[@anwerdeen](https://github.com/PrajwalDhoble)
+[@anwerdeen](https://github.com/AnwardeenM)
 
 
 

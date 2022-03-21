@@ -94,7 +94,20 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 
 ---
 
-   
+# Creators 
+[@rajarsi](https://github.com/vijendrasaini)
+
+[@anand](https://github.com/walsonFerrao)
+
+[@jayashmita](https://github.com/tanishaa17)
+
+[@anwerdeen](https://github.com/PrajwalDhoble)
+
+
+
+### Over_All 
+
+That is so funny! :joy:   
 
 
 

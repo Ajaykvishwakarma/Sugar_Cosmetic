@@ -131,6 +131,7 @@
                     </div>
         
                   </div>
+                  <div id = "tablebody"> </div>
                   <div id = "tablecontent">
                     <table id = "tablecontents">
                         <thead>
@@ -143,11 +144,12 @@
                                 <th>Delete</th>
                             </tr>
                         </thead>
-                            <tbody>
+                       
+                            <tbody >
                                 
 
                             </tbody>
-                        
+                       
                     </table>
                     
                   </div>
@@ -281,19 +283,31 @@ displaytable(usercart)
 
 function displaytable(usercart){
     var tbody = document.querySelector("tbody");
-
-    tbody.textContent = ""
+    
+    tbody.textContent = "";
+    // tbody.setAttribute("id", "mainTable");
     usercart.map(function(elem,index){
         var tr = document.createElement("tr");
+        
         var tdimage  = document.createElement("td");
+        var tdImage = document.createElement("td");
         var img = document.createElement("img");
         img.setAttribute("src", elem.image);
+
         img.setAttribute("class", "imageclass");    // image
+
+        
         var td6 = document.createElement("button");
-        td6.setAttribute("class", "deletebtn"); 
+        td6.setAttribute("class", "deletebtn");
+        
+        var tdbtn = document.createElement("td"); 
+
         var td1 = document.createElement("td");    // name
         var td2 = document.createElement("td");    // price
-        var td3 = document.createElement("td").textContent = "1";//qua
+
+        var quantity = document.createElement("p").textContent = "1";
+        var td3 = document.createElement("td")//qua
+
         var td4 = document.createElement("td");    //total
 
        
@@ -302,12 +316,13 @@ function displaytable(usercart){
             deleteTask(index)
         })
 
-        
+        tdimage.append(img)
         td1.textContent =elem.name;
         td2.textContent = elem.price;
         td4.textContent = elem.price;
-
-        tr.append(img,td1, td2, td3, td4,td6)
+        td3.append(quantity)
+        tdbtn.append(td6)
+        tr.append(tdimage,td1, td2, td3, td4,tdbtn)
         tbody.append(tr)
     })
 }

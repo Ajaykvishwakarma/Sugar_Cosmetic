@@ -444,7 +444,9 @@
     }
 
     document.querySelector(".carttext").addEventListener("click",addTocart );
+    // var button = document.querySelector("#btn").addEventListener("click",function(){
 
+    // }
 
     var usercart = JSON.parse(localStorage.getItem("cartdatabase")) || [];
 
@@ -460,6 +462,7 @@
             name:name,
             image:image,
         }
+        alert("Your product added Successfully!")
         usercart.push(cartdata)
         localStorage.setItem("cartdatabase",JSON.stringify(usercart));
     }

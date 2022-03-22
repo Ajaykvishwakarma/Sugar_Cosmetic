@@ -277,7 +277,8 @@ nav ul ul li a:hover{
 
 /* table */
 #tablecontent{
-    width:100%;
+    width:90%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
 }
 #tablecontent > tbody {
@@ -287,14 +288,29 @@ nav ul ul li a:hover{
 }
 #tablecontents{
     width:80%;
- 
+    
+
 }
 #tablecontents > thead >tr >th{
    
     height:40px;
     padding:20px;
-  
+
 }
+#tablecontents > tbody >tr > td{
+   
+    height:20px;
+    padding:5px;
+    
+}
+#tablebody {
+   
+   
+    padding:5px;
+    height:10px;
+    
+}
+
 
 
 .imageclass{
@@ -303,14 +319,14 @@ nav ul ul li a:hover{
 }
 
 .deletebtn{
-    height:20px;
-    border:none;
+    height:40px;
     width:80px;
-    padding:20px;
+   
     border-radius:10px;
     color:#e4d6d6;
     background-color: black;
 }
+
 /* footer */
 
 #footercontainer{

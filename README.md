@@ -50,6 +50,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | Middle | Slider, Images |
 | Description | Read More |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/landing.png)
 ---
 ### Products page
 
@@ -59,6 +60,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | Add to Cart | Add Any Product to Cart |
 | Color | Red, Blue, Green etc. |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/products.png)
 ---
 ### Cart page
 
@@ -67,6 +69,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | View Cart | Check Your cart |
 | Checkout From Cart | Buy Selected Items |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/cart.png)
 ---
 
 ### login & Register page
@@ -76,6 +79,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | Register | Ask for user details |
 | Login | Use user Details to login thier account  |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/login.png)
 ---
 
 ### Checkout page
@@ -84,6 +88,7 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | ------------- | -------------- |
 | Add Details | Ask for Extra Details to Proceed |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/checkout.png)
 ---
 
 ### Payment page
@@ -92,12 +97,11 @@ These are the components outlined in sugercosmetic's site. All sugercosmetic's c
 | ------------- | -------------- |
 | Payment Methods | Pay Any type of Cards |
 
+![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Sugar_Cosmetic/main/payment.png)
 ---
 
 # Creators 
 [@rajarsi](https://github.com/RajarsiMukherjee)
-
-[@anand](https://github.com/walsonFerrao)
 
 [@jayashmita](https://github.com/jayasmita12)
 

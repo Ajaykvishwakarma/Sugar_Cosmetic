@@ -1,9 +1,7 @@
 document.querySelector("#myform").addEventListener("submit",addresspart)
   var data=JSON.parse(localStorage.getItem("addressdata"))||[];
 
-   var button = document.querySelector("#btn").addEventListener("click",function(){
-       window.location.href="order.html"
-   })
+
   
 function addresspart(event){
     event.preventDefault();
@@ -32,7 +30,24 @@ function addresspart(event){
        
     };
       data.push(obj)
-     console.log(obj)
-     localStorage.setItem("addressdata",JSON.stringify(data))
+      var x = 0;
+  var button = document.querySelector("#btn").addEventListener("click",function(){
+     
+        if(email.length >= 5 && firstname.length != "" && lastname.length != "" && address.length != "" && city.length != "" && phone.length != "" && state.length != "")
+        
+        {
+            window.location.href="order.html"
+            localStorage.setItem("addressdata",JSON.stringify(data))
+
+        }
+        else if(x == 0){
+            alert("Please Fill full details !")
+            x = 2;
+        }
+       
+    })
+
+    
     //   window.location.href="order.html";
 }
+
